@@ -21,6 +21,7 @@ body {
     gap: 16px;
     align-items: center;
 }
+
 .icon > svg {
     transform: scale(2);
 }
@@ -33,12 +34,14 @@ body {
     background-color: #f7fee7;
     padding: 0 64px 0 32px;
 }
+
 .search > div:first-child {
     display: grid;
     grid-template-columns: auto 1fr;
     align-items: center;
     gap: 16px;
 }
+
 .search > div > input {
     height: 32px;
     border: none;
@@ -46,6 +49,7 @@ body {
     background-color: #d9f99d;
     width: 80%;
 }
+
 .items {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(24px, auto));
@@ -53,10 +57,12 @@ body {
     justify-content: end;
     gap: 24px;
 }
+
 .profile-button {
     transform: scale(2);
     margin-bottom: -6px;
 }
+
 .name {
     font-weight: 900;
 }
@@ -106,21 +112,25 @@ a {
     background-color: #f7fee7;
     box-shadow: 0 4px 4px -2px gray;
 }
+
 .header-left{
     display: grid;
     grid-template-columns: auto 1fr;
     gap: 32px;
     align-items: center;
 }
+
 .pfp > svg {
     transform: scale(3);
 }
+
 .header-right {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(60px, auto));
     justify-content: end;
     gap: 24px
 }
+
 .header-right > button {
     width: 96px;
     height: 38px;
@@ -131,10 +141,12 @@ a {
     font-weight: 900;
     color: #f7fee7;
 }
+
 .wrapper {
     background-color: #d9f99d;
     display: grid;
 }
+
 .content {
     display: grid;
     grid-template-columns: 1fr auto;
@@ -143,14 +155,17 @@ a {
     row-gap: 16px;
     column-gap: 32px;
 }
+
 .your-projects {
     grid-area: 1 / 1 / -1 / 2;
 }
+
 .announcements {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 16px;
 }
+
 .announcements-container {
     padding: 24px;
     display: grid;
@@ -162,18 +177,15 @@ a {
     width: 272px;
     box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.75);
 }
+
 .ann-content{
     border-bottom: 1px solid #c0c0c0;
 }
+
 .ann-content > p {
     font-size: 12px;
     color: #6e6e6e;
 }
-
-
-
-
-
 
 .trending {
     padding: 24px 16px 24px 32px;
@@ -186,6 +198,7 @@ a {
     width: fit-content;
     box-shadow: 5px 5px 11px -5px rgba(0,0,0,0.75);
 }
+
 .trending-person {
     display: grid;
     grid-template-columns: auto 1fr;
@@ -193,26 +206,32 @@ a {
     align-items: center;
     width: 272px;
 }
+
 .tp-pfp > svg {
     transform: scale(2.5);
 }
+
 .username {
     font-weight: 900;
 }
+
 .tp-text > p {
     color: #6e6e6e;
 }
+
 .trend-wrap {
     display: grid;
     grid-template-rows: auto 1fr;
     gap: 16px;
     
 }
+
 .all-projects{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: 16px;
 }
+
 .project {
     display: grid;
     grid-template-rows: 1fr auto;
